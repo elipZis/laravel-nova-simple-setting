@@ -1,0 +1,44 @@
+{
+    "name": "elipzis/laravel-nova-simple-setting",
+    "description": "Laravel Nova Resource for a simple key/value typed setting",
+    "keywords": [
+        "elipZis",
+        "laravel",
+        "settings",
+        "config",
+        "nova"
+    ],
+    "homepage": "https://github.com/elipzis/laravel-nova-simple-setting",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "elipZis GmbH",
+            "email": "contact@elipzis.com",
+            "role": "Developer",
+            "homepage": "https://elipZis.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "elipzis/laravel-simple-setting": "^1.0",
+        "epartment/nova-dependency-container": "^1.3",
+        "laravel/framework": "^8.0",
+        "laravel/nova": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ElipZis\\Setting\\Nova\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
