@@ -11,8 +11,8 @@ in [Nova](https://nova.laravel.com/)
 This Nova resource package requires:
 
 * [Laravel Simple Setting](https://github.com/elipZis/laravel-simple-setting)
-* [Laravel Nova](https://nova.laravel.com/)
-* [Laravel Nova Dependency Container](https://github.com/epartment/nova-dependency-container)
+* [Laravel Nova 4](https://nova.laravel.com/)
+* [Nova 4 dependency container](https://github.com/alexwenzel/nova-dependency-container)
 
 ## Installation
 
@@ -29,8 +29,10 @@ To add this resource to your Nova open the `NovaServiceProvider.php` and add it,
 ```php
 <?php
 ...
+use ElipZis\Setting\Nova\Setting;
+...
 
-    public function resources()
+    protected function resources()
     {
         parent::resources();
 

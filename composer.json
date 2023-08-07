@@ -20,8 +20,8 @@
     ],
     "require": {
         "php": "^8.0|^8.1",
+        "alexwenzel/nova-dependency-container": "^1.10",
         "elipzis/laravel-simple-setting": "^1.0",
-        "epartment/nova-dependency-container": "^1.3",
         "laravel/framework": "^10.0",
         "laravel/nova": "^4.0"
     },
