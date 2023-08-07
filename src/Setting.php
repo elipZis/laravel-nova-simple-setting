@@ -83,7 +83,7 @@ class Setting extends Resource
 
             DependencyContainer::make([
                 Date::make(__('Value'), 'value', function ($value) {
-                    if (!is_null($value) && $value instanceof DateTimeInterface) {
+                    if ($value instanceof DateTimeInterface) {
                         return $value->format('Y-m-d');
                     }
                 })
@@ -91,7 +91,7 @@ class Setting extends Resource
 
             DependencyContainer::make([
                 DateTime::make(__('Value'), 'value', function ($value) {
-                    if (!is_null($value) && $value instanceof DateTimeInterface) {
+                    if ($value instanceof DateTimeInterface) {
                         return $value->format('Y-m-d H:i:s.u');
                     }
                 })
