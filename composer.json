@@ -19,10 +19,10 @@
         }
     ],
     "require": {
-        "php": "^8.0|^8.1",
+        "php": "^8.1|^8.2",
         "alexwenzel/nova-dependency-container": "^1.10",
         "elipzis/laravel-simple-setting": "^1.0",
-        "laravel/framework": "^10.0",
+        "laravel/framework": "^10.0|^11.0",
         "laravel/nova": "^4.0"
     },
     "autoload": {
